@@ -83,7 +83,7 @@ body {
     margin-top: 20px;
 }
 
-/* waan ku daray, fahan?? */
+
 .input-container {
     position: relative;
     width: 100%;
@@ -124,19 +124,19 @@ body {
     padding: 0 40px;
     border: 1px solid lightgrey;
     background-color: #fff;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
     outline: none;
     font-size: 16px;
     transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
 .search-input:hover {
-    box-shadow: 0 0 8px rgba(58, 53, 53, 0.4);
-    border-color: #b9b9b9; 
+    box-shadow: 0 2px 8px rgba(32, 33, 36, 0.3);
+    border-color: #dfe1e5; 
 }
 
 .search-input:focus {
-    box-shadow: 0 0 10px rgba(100, 100, 100, 0.2);
+    box-shadow: 0 2px 8px rgba(32, 33, 36, 0.35);
 }
 
 .search-buttons {
@@ -151,8 +151,9 @@ body {
     padding: 10px 10px;
     border-radius: 4px;
     cursor: pointer;
-    border: 1px solid transparent;
-    transition: border-color 0.1s ease;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    transition: border 0.1s ease;
 }
 .search-btn:hover {
     border-color: lightgray;
