@@ -172,11 +172,20 @@ form {
 
 /* Footer */
 
+
 .footer {
     background: #f2f2f2;
     border-top: 1px solid #e4e4e4;
     font-size: 13px;
-    color: #70757a;
+    color: #1f1f1f;
+    width: 100%;
+}
+
+.footer a {
+    color: #1f1f1f;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0 12px;
 }
 
 .footer-top {
@@ -187,21 +196,22 @@ form {
 .footer-bottom {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 10px 24px;
-    flex-wrap: wrap;
-    gap: 6px;
 }
 
-.footer-bottom a {
-    color: #70757a;
+.footer-center {
+    color: #1f1f1f;
+    font-size: 13px;
+    align-items: center;
+}
+
+.footer-center a {
+    color: #1f1f1f;
     text-decoration: none;
-    padding: 4px 8px;
+    padding: 0;
 }
 
-.footer-bottom a:hover {
-    text-decoration: underline;
-}
+
 
 .footer-left, 
 .footer-right {
@@ -209,9 +219,10 @@ form {
     gap: 0;
 }
 
-.footer-center {
-    color: #70757a;
+.footer a:hover {
+    text-decoration: underline;
 }
+
 
 @media (max-width: 1056px) {
     .tips, .search-tips {
@@ -221,7 +232,7 @@ form {
 
 @media (max-width: 1200px) {
     .container {
-        margin: 0 20px; /* Minska sido margins på små screens */
+        margin: 0 20px; 
     }
 }
 
@@ -232,14 +243,14 @@ form {
     }
     
     .input-field {
-        width: calc(100vw - 300px); /* Fluid width based on viewport */
+        width: calc(100vw - 300px); 
         max-width: 350px;
         min-width: 200px;
     }
     
     .advanced-btn {
-        margin-left: 140px; /* Matcha med label width */
-        width: calc(100vw - 300px); /* Samma som input field */
+        margin-left: 140px; 
+        width: calc(100vw - 300px); 
         max-width: 350px;
         min-width: 200px;
     }
