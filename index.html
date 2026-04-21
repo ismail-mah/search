@@ -20,24 +20,49 @@
 
             </div>
         </div>
-        <div class="title-logo">
-            <div class="logo-wrapper">
-                <img src="images/google-logo.png" class="logo" alt="logo">
+
+        <main>
+
+            <div class="title-logo">
+                <div class="logo-wrapper">
+                    <img src="images/google-logo.png" class="logo" alt="logo">
+                </div>
             </div>
-        </div>
-        <form action="https://www.google.com/search" class="search-form" method="GET">
-            <div class="input-container">
-                <div class="input-field">
-                    <img src="images/icon-search.png" alt="Search Icon" class="search-icon">
-                    <img src="images/mic.png" alt="microphone" class="mic-icon">
-                    <input type="text" name="q" class="search-input">
+            <form action="https://www.google.com/search" class="search-form" method="GET">
+                <div class="input-container">
+                    <div class="input-field">
+                        <img src="images/icon-search.png" alt="Search Icon" class="search-icon">
+                        <input type="text" name="q" class="search-input" aria-label="Search">
+                        <img src="images/mic.png" alt="search by voice" class="mic-icon">
+                    </div>
                 </div>
 
+                <div class="search-buttons">
+                    <input type="submit" value="Google Search" class="search-btn">
+                    <input type="submit" value="I'm Feeling Lucky" name="btnI" class="search-btn">
+                </div>
+            </form>
+            
+        </main>
+        <footer class="footer">
+            <div class="footer-top">
+                Sweden
             </div>
-            <div class="search-buttons">
-                <input type="submit" value="Google Search" class="search-btn">
-                <input type="submit" value="I'm Feeling Lucky" name="btnI" class="search-btn">
+            <div class="footer-bottom">
+                <div class="footer-left">
+                    <a href="#">Advertising</a>
+                    <a href="#">Business</a>
+                    <a href="#">About</a>
+                </div>
+                <div class="footer-center">
+                 <p>&copy; 2026 CS50 &mdash; Project 0 &mdash; <a href="#">Ismail M. Adam</a></p>
+                </div>
+                <div class="footer-right">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Settings</a>
+                </div>
             </div>
-        </form>
+        </footer>
     </body>
 </html>
