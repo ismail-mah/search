@@ -4,6 +4,8 @@ A front-end for Google Search built for CS50 Web Programming with Python and Jav
 
 Three static HTML pages that submit real GET requests to Google using the same parameters Google's own forms use.
 
+Live: https://ismail-mah.github.io/search/
+
 ## Pages
 
 - **index.html** — main search with Google Search and I'm Feeling Lucky buttons
