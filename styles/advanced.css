@@ -1,6 +1,8 @@
 html,
 body {
     overflow-x: hidden;
+    font-size: 13px;
+    font-family: arial, sans-serif;
 }
 
 main {
@@ -45,7 +47,7 @@ main {
     justify-content: center;
     padding: 1px 8px;
     height: 25px;
-    font-size: 13px;
+    font-size: inherit;
     margin-top: 4px;
 }
 
@@ -72,7 +74,7 @@ form {
 
 .form-label {
     flex: 0 0 180px;
-    font-size: 13px;
+    font-size: inherit;
     font-weight: 500;
 }
 
@@ -82,8 +84,7 @@ form {
     border: 1px solid #c0c0c0;
     border-top: 1px solid #d9d9d9;
     font-size: 13px;
-    height: 25px;
-    padding: 1px 8px;
+    padding: 12px 16px;
 }
 
 .advanced-btn {
@@ -95,15 +96,15 @@ form {
 }
 
 .search-btn {
-    border-radius: 2px;
-    font-size: 11px;
+    border-radius: 20px;
+    font-size: 13px;
     font-weight: bold;
     text-align: center;
     white-space: nowrap;
-    height: 27px;
+    height: 37px;
     min-width: 54px;
     outline: 0;
-    padding: 0 8px;
+    padding: 0 20px;
     box-shadow: none;
     background-color: #4d90fe;
     border: 1px solid hsl(217, 84%, 56%);
@@ -170,13 +171,16 @@ form {
         width: 100%;
         max-width: 100%;
         min-width: 0;
+        padding: 12px 16px;
         
     }
 
     .advanced-btn {
-        margin-left: 0;
-        width: 100%;
-        justify-content: flex-start;
+       display: flex;
+       justify-self: flex-end;
+       margin-bottom: 100px;
     }
+
+    
 
 }
