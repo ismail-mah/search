@@ -27,8 +27,8 @@ project0/
 └── styles/
     ├── common.css        # shared header, footer, reset
     ├── index.css
-    ├── image-search.css
-    └── advanced-search.css
+    ├── image.css
+    └── advanced.css
 ```
 
 ## Author
